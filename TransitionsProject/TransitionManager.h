@@ -8,7 +8,7 @@
 
 @interface TransitionManager : UIPercentDrivenInteractiveTransition<UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
 
-//-(id)initWithSourceView:(UIView *)sourceView;
-
 @property (nonatomic, weak) UINavigationController *navigationController;
+
+- (void) panned: (UIPanGestureRecognizer *)recognizer;
 @end

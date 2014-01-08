@@ -7,16 +7,13 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForTesting = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1965658078BD2EB7FF49E25A"
-               BuildableName = "TransitionsProject.app"
-               BlueprintName = "TransitionsProject"
+               BlueprintIdentifier = "196564CAE149487B12243FCC"
+               BuildableName = "TransitionsProjectTests.xctest"
+               BlueprintName = "TransitionsProjectTests"
                ReferencedContainer = "container:TransitionsProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +25,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "196564CAE149487B12243FCC"
+               BuildableName = "TransitionsProjectTests.xctest"
+               BlueprintName = "TransitionsProjectTests"
+               ReferencedContainer = "container:TransitionsProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -39,15 +46,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1965658078BD2EB7FF49E25A"
-            BuildableName = "TransitionsProject.app"
-            BlueprintName = "TransitionsProject"
-            ReferencedContainer = "container:TransitionsProject.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

@@ -27,6 +27,17 @@
                     action:@selector(panned:)
     ];
     [self.view addGestureRecognizer:self.panGesture];
+
+
+    // Dev ---
+    UILabel *devLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 50)];
+    [devLabel setText:@"Here is some text"];
+    [devLabel setTextColor:[UIColor redColor]];
+    [devLabel setTextAlignment:NSTextAlignmentCenter];
+
+    devLabel.center= self.view.center;
+    [self.view addSubview:devLabel];
+    // End Dev ---
 }
 
 -(void)dealloc{
@@ -34,14 +45,8 @@
 }
 
 -(void) doNextTransition{
-
-//    if (!self.nextViewController){
-//        self.nextViewController= [[ScreenViewController alloc] initWithNibName:nil bundle:nil];
-//    }
-//    UIViewController *nextVC= [[ScreenViewController alloc] initWithNibName:nil bundle:nil];
-//    nextVC.transitioningDelegate=self.transitioningDelegate;
-//
-//    [self.navigationController pushViewController:nextVC animated:YES];
+    UIViewController *nextVC= [[ScreenViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 @end
